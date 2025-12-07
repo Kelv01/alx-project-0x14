@@ -18,12 +18,12 @@
     }
   },
   "include": [
-    "next-env.d.ts",
+    "alx-movie-app/next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
+    "alx-movie-app/.next/types/**/*.ts",
+    "alx-movie-app/.next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["alx-movie-app/node_modules"]
 }
